@@ -10,27 +10,27 @@ let active = 0;
 const sliderBackground = {
     "slide1": {
         "id": "slide1",
-        "src": "/assets/images/slider1.jpg"
+        "src": "./assets/images/slider1.jpg"
     },
     "slide2": {
         "id": "slide2",
-        "src": "/assets/images/slider2.jpg"
+        "src": "./assets/images/slider2.jpg"
     },
     "slide3": {
         "id": "slide3",
-        "src": "/assets/images/slider3.jpg"
+        "src": "./assets/images/slider3.jpg"
     },
     "slide4": {
         "id": "slide4",
-        "src": "/assets/images/slider4.jpg"
+        "src": "./assets/images/slider4.jpg"
     },
     "slide5": {
         "id": "slide5",
-        "src": "/assets/images/slider5.jpg"
+        "src": "./assets/images/slider5.jpg"
     },
     "slide6": {
         "id": "slide6",
-        "src": "/assets/images/slider6.jpg"
+        "src": "./assets/images/slider6.jpg"
     }
 };
 

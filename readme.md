@@ -1,47 +1,55 @@
-# 3D Carousel Slider
+# Carousel Slider
 
-This project is a 3D carousel slider implemented using HTML, CSS, and JavaScript. It provides an interactive way to display images and content in a rotating carousel format.
+Carousel Slider is a simple image slider with autoplay functionality and navigation arrows, built using HTML, CSS, and JavaScript.
 
 ## Features
 
-- Interactive 3D carousel slider.
-- Smooth transitions between slides.
-- Blur effect on inactive slides for focus on the active slide.
-- Responsive design for compatibility with various screen sizes.
+- Autoplay functionality: The slider automatically transitions between slides after a specified interval.
+- Navigation arrows: Users can manually navigate between slides using the arrow buttons.
+- Smooth animations: Slides transition smoothly using CSS animations.
+- Responsive design: The slider is designed to work on various screen sizes, from mobile devices to desktops.
 
-## How to Use
+## Demo
 
-1. Clone the repository to your local machine:
+[View Demo](https://maurya-sachin.github.io/Carousel-Slider/)
 
-   ```bash
-   git clone <repository-url>
+## Getting Started
 
-2. Open the project directory.
+To get a local copy up and running follow these simple steps.
 
-3. Open the `index.html` file in a web browser to view the carousel slider.
+### Prerequisites
 
-## Project Structure
+- Web browser
 
-- `index.html`: HTML file containing the carousel slider markup.
-- `assets/`: Directory containing the project assets such as images and JavaScript/CSS files.
-  - `images/`: Directory containing image assets used in the slider.
-  - `css/`: Directory containing CSS stylesheets for styling the slider.
-  - `js/`: Directory containing JavaScript code for slider functionality.
+### Installation
 
-## Dependencies
+1. Clone the repository
+   ```sh
+   git clone https://github.com/maurya-sachin/Carousel-Slider
 
-- None
-
+2. Navigate to the project directory
+    ```sh
+    cd your-repo
+### Usage
+1. Open `index.html` in your web browser.
+2. Use the navigation arrows to switch between slides.
+3. Enjoy the autoplay feature to automatically transition between slides.
+## Customization
+You can customize the slider by modifying the CSS and JavaScript files according to your requirements.
 ## Contributing
-
-Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
-
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature/your-feature-name`).
-3. Commit your changes (`git commit -am 'Add some feature'`).
-4. Push to the branch (`git push origin feature/your-feature-name`).
-5. Create a new Pull Request.
+Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+1. Fork the project
+2. Create your feature branch
+    ```sh
+    git checkout -b feature/AmazingFeature
+3. Commit your changes
+    ```sh
+    git commit -m 'Add some AmazingFeature'
+4. Push to the branch
+    ```sh
+    git push origin feature/AmazingFeature
+5.  Open pull request
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+Distributed under the MIT License. See `LICENSE` for more information.
