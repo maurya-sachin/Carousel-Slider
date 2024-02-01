@@ -71,9 +71,11 @@ const updateBackgrounds = () => {
 
 document.addEventListener('DOMContentLoaded', () => {
     preloadSlideBackgrounds();
+    startAutoplay();
 });
 
 next.addEventListener('click', () => {
+    stopAutoplay();
     slider.classList.toggle('zoom');
 
     currdeg = currdeg - (360 / slide.length);
@@ -86,9 +88,11 @@ next.addEventListener('click', () => {
 
     toggle();
     updateBackgrounds();
+    startAutoplay();
 });
 
 prev.addEventListener('click', () => {
+    stopAutoplay();
     slider.classList.toggle('zoom');
 
     currdeg = currdeg + (360 / slide.length);
@@ -101,6 +105,7 @@ prev.addEventListener('click', () => {
 
     toggle();
     updateBackgrounds();
+    startAutoplay();
 });
 
 
@@ -119,3 +124,15 @@ let toggle = () => {
         slider.classList.toggle('zoom');
     }, 1900);
 }
+
+let autoplayInterval;
+
+const startAutoplay = () => {
+    autoplayInterval = setInterval(() => {
+        next.click();
+    }, 4500);
+};
+
+const stopAutoplay = () => {
+    clearInterval(autoplayInterval);
+};
